@@ -10,9 +10,10 @@ h1 {
 	width: 100%;
 }
 
-@media and (max-width: 570px){
+@media screen and (max-width: 590px){
 	h1 {
 		font-size: 4rem;
+		margin-top: 45%;
 	}
 }
 
