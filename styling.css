@@ -1,11 +1,20 @@
 body {
 	background: black;
 }
+
+p {
+	color: grey;
+	font-family: Helvetica;
+	text-align: center;
+	margin-top: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 h1 {
 	color: white;
 	font-family: Helvetica;
 	text-align: center;
-	margin-top: 22%;
+/*	margin-top: 22%;*/
 	font-size: 5.5rem;
 	width: 100%;
 }
@@ -13,14 +22,22 @@ h1 {
 @media screen and (max-width: 590px){
 	h1 {
 		font-size: 4rem;
-		margin-top: 45%;
+/*		margin-top: 45%;*/
+	}
+
+	p {
+		margin-top: 40%;
 	}
 }
 
 @media screen and (max-width: 400px) {
 	h1 {
 		font-size: 3rem;
-		margin-top: 70%;
+/*		margin-top: 70%;*/
+	}
+
+	p {
+		margin-top: 65%;
 	}
 
 }
